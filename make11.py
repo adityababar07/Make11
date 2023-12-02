@@ -49,7 +49,9 @@ while no_of_cards<5:
         player_cards.append(card)
 
 
-print(player_cards)
+# print(player_cards)
+
+#gets computer's card
 
 def computer_card():
     row = random.randint(0,3)
@@ -57,6 +59,8 @@ def computer_card():
 
     card = [row, coloumn]
     return card
+
+#checks the suit of players card
 
 def suit_check(card):
     if card == 0:

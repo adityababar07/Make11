@@ -10,20 +10,19 @@
                                                                    
 ==================================================================
 
-[[0, 6], [0, 4], [2, 8], [3, 8], [1, 4]]
 
         -----------------Round 1-------------------
     
 
-computer deals: 2 of spade
+computer deals: Q of spade
 Can you make it up to 11, or produce the same suit to continue the run?
 
 Please choose a card from your hand to play
 
-1):hearts of 7
+1):diamonds of 1
 2):hearts of 5
-3):club of 9
-4):spade of 9
-5):diamonds of 5
+3):hearts of 7
+4):diamonds of 4
+5):diamonds of 3
 
 Enter you selection:	
