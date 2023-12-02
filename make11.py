@@ -32,20 +32,24 @@ cards = [[1,2,3,4,5,6,7,8,9,'K','Q','J'],
          [1,2,3,4,5,6,7,8,9,'K','Q','J']]
 
 
-# player needs to have 5 random cards in hand
-
-row = random.randint(0,3)
-coloumn = random.randint(0, 11)
-
-card = cards[row][coloumn]
-print(card)
-
-
 
 # the player has five cards so let's create a list with five cards
 
 player_cards = []
 
+# player needs to have 5 random cards in hand
 
+for i in range(4):
+    row = random.randint(0,3)
+    coloumn = random.randint(0, 11)
+    
+    card = [row, coloumn]
+    player_cards.append(card)
+
+print(player_cards)
+
+
+while 
+# Display player's cards 
 
 #End
